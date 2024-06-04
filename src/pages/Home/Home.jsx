@@ -1,9 +1,21 @@
+import EmergencyContact from "./Rightside/EmergencyContact";
+import SociaConnection from "./Rightside/SociaConnection";
 
 
 const Home = () => {
     return (
-        <div>
-            <h2 className="text-3xl font-poppins">This is home</h2>
+        <div className="grid grid-cols-1 md: grid-cols-4 gap-6">
+            <div className="md:col-span-3 border">
+                <h3>Our Services</h3>
+            </div>
+            <div className="border">
+                <SociaConnection></SociaConnection>
+                <br />
+                <hr />
+                <EmergencyContact></EmergencyContact>
+            </div>
+            
+            
         </div>
     );
 };
