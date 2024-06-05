@@ -4,6 +4,8 @@ import {
 import Root from "./layout/Root";
 import Home from "../pages/Home/Home";
 import Service from '../pages/Home/SerceCard/Sevice'
+import Login from "../pages/Home/Login/Login";
+import Register from "../pages/Home/Register/Register";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
         element: <Service></Service>,
         loader: ()=>fetch('../express.json')
        },
+       {
+        path: '/login',
+        element: <Login></Login>
+       },
+       {
+        path: '/register',
+        element: <Register></Register>
+       }
     ]
     },
   ]);
