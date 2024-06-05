@@ -17,8 +17,9 @@ const router = createBrowserRouter([
        } ,
        {
         path: '/service/:id',
-        element: <Service></Service>
-       }
+        element: <Service></Service>,
+        loader: ()=>fetch('../express.json')
+       },
     ]
     },
   ]);
