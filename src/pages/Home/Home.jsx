@@ -13,7 +13,7 @@ const Home = () => {
         
         <div >
             <Banner></Banner>
-            <h3 className="text-3xl text-center mt-6">Our Services</h3>
+            <h3 className="text-3xl text-purple-900 text-center font-semibold mt-6">Our Services</h3>
             <div className="grid grid-cols-1 md: grid-cols-4 gap-6 mt-6">
                 
             <div className="md:col-span-3 border">
