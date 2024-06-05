@@ -1,6 +1,5 @@
 import {
     createBrowserRouter,
-    RouterProvider,
   } from "react-router-dom";
 import Root from "./layout/Root";
 import Home from "../pages/Home/Home";
@@ -9,10 +8,13 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <Root></Root>,
-      children:[{
+      children:[
+      {
         path: '/',
-        element:<Home></Home>
-      }]
+        element:<Home></Home>,
+        loader: ()=>fetch('./express.json')
+       } ,
+    ]
     },
   ]);
   export default router

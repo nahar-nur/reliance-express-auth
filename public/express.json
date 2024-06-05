@@ -1,0 +1,77 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/8409kKH/curgo.jpg",
+        "name": "CargoMax Solutions",
+        "description": "Efficient and reliable cargo transportation services with a focus on safety and timeliness.",
+        "price": {
+            "per_kg": 5,
+            "per_cubic_meter": 20
+        },
+        "status": "Available",
+        "location": "123 Cargo Blvd, Port City, PC 12345",
+        "facilities": [
+            "24/7 customer support",
+            "Real-time tracking",
+            "Insurance options",
+            "Special handling for fragile items"
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/NWM0SKv/logistic.jpg",
+        "name": "LogiTrack Services",
+        "description": "Comprehensive logistics management solutions, including supply chain optimization and real-time tracking.",
+        "price": {
+            "per_project": 1000,
+            "monthly_retainer": 5000
+        },
+        "status": "Available",
+        "location": "456 Logistics Lane, Industry Town, IT 67890",
+        "facilities": [
+            "End-to-end supply chain management",
+            "Customs clearance assistance",
+            "Warehousing solutions",
+            "Advanced analytics and reporting"
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/K0ggD7j/storage.jpg",
+        "name": "SafeStore Warehouse",
+        "description": "Secure and spacious storage facilities with climate control and 24/7 surveillance.",
+        "price": {
+            "per_square_meter_per_month": 10,
+            "climate_control_fee": 5
+        },
+        "status": "Available",
+        "location": "789 Storage St, Safe City, SC 11223",
+        "facilities": [
+            "24/7 surveillance",
+            "Climate control",
+            "Automated inventory management",
+            "Access control system"
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/jGZ827z/truck.jpg",
+        "name": "TruckFleet Transport",
+        "description": "Reliable trucking services with a fleet of modern trucks and experienced drivers ensuring timely deliveries.",
+        "price": {
+            "per_mile": 2,
+            "flat_rate_per_trip": 150
+        },
+        "status": "Available",
+        "location": "321 Transport Ave, Drive City, DC 33445",
+        "facilities": [
+            "Modern fleet of trucks",
+            "Experienced drivers",
+            "GPS tracking",
+            "Expedited delivery options"
+        ]
+    }
+]
+
+
+
