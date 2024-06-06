@@ -7,6 +7,8 @@ import Service from '../pages/Home/SerceCard/Sevice'
 import Login from "../pages/Home/Login/Login";
 import Register from "../pages/Home/Register/Register";
 import Error from "../pages/Error/Error";
+import AboutUs from "../pages/Home/AboutUs/AboutUs";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
        {
         path: '/register',
         element: <Register></Register>
+       },
+       {
+        path: '/about',
+        element: <PrivateRoute><AboutUs></AboutUs></PrivateRoute>
        }
     ]
     },

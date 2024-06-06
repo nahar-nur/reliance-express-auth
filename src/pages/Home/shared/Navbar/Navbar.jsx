@@ -14,7 +14,7 @@ const Navbar = () => {
     const navLinks = <>
         <li><a><NavLink to='/'>Home</NavLink></a></li>
         <li><a><NavLink to='/updateProfile'>Update Profile</NavLink></a></li>
-        <li><a><NavLink to='/userProfile'>User Profile</NavLink></a></li>
+        <li><a><NavLink to='/about'>About Us</NavLink></a></li>
 
     </>
     return (
