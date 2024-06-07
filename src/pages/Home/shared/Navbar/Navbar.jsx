@@ -12,9 +12,15 @@ const Navbar = () => {
 
     }
     const navLinks = <>
-        <li><a><NavLink to='/'>Home</NavLink></a></li>
-        <li><a><NavLink to='/updateProfile'>Update Profile</NavLink></a></li>
-        <li><a><NavLink to='/about'>About Us</NavLink></a></li>
+        <li><a><NavLink className={({ isActive }) =>
+  isActive ? 'text-primary font-bold' : 'font-bold'
+} to='/'>Home</NavLink></a></li>
+        <li><a><NavLink className={({ isActive }) =>
+  isActive ? 'text-primary font-bold' : 'font-bold'
+} to='/updateProfile'>Update Profile</NavLink></a></li>
+        <li><a><NavLink className={({ isActive }) =>
+  isActive ? 'text-primary font-bold' : 'font-bold'
+} to='/about'>About Us</NavLink></a></li>
 
     </>
     return (
@@ -44,7 +50,10 @@ const Navbar = () => {
                         </div>
                         </div>
                         {
-                           user? <btn onClick={handleSignOut} className="btn btn-secondary">Sign Out</btn>
+                           user?<> <span>{user.photo}</span>
+                           
+                           <a><btn onClick={handleSignOut} className="btn btn-secondary">Sign Out</btn></a>
+                            </>
                            :
                            <Link to='/login' >
                            <btn className="btn btn-primary">LOGIN</btn>

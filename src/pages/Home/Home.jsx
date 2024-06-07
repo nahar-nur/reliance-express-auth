@@ -3,6 +3,7 @@ import Banner from "./Banner/Banner";
 import EmergencyContact from "./Rightside/EmergencyContact";
 import SociaConnection from "./Rightside/SociaConnection";
 import ServiceCard from "./SerceCard/ServiceCard"
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -12,6 +13,9 @@ const Home = () => {
     return (
         
         <div >
+            <Helmet>
+               <title>Reliance Express | Home</title>
+            </Helmet>
             <Banner></Banner>
             <h3 className="text-3xl text-purple-900 text-center font-semibold mt-6">Our Services</h3>
             <div className="grid grid-cols-1 md: grid-cols-4 gap-6 mt-6">

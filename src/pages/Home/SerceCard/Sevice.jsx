@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useLoaderData, useParams } from "react-router-dom";
 
 
@@ -10,6 +11,9 @@ const Sevice = () => {
     
     return (
         <div className="">
+            <Helmet>
+                <title>Reliance Express | Service Details</title>
+            </Helmet>
                   <div className="card w-96 bg-base-100 shadow-xl max-w-6xl mx-auto mt-6">
                 <figure><img src={image} alt="Shoes" /></figure>
                 <div className="card-body">

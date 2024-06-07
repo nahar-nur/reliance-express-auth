@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
+import { Helmet } from "react-helmet-async";
 
 
 const Register = () => {
@@ -28,6 +29,9 @@ const Register = () => {
     return (
 
         <div className="mb-12">
+            <Helmet>
+                <title>Reliance Express | Register</title>
+            </Helmet>
             <h3 className="text-3xl my-10 text-center">Please Register</h3>
             <form onSubmit={handleRegister} className=" md:w-3/4 lg: w-1/2 mx-auto ">
                 <div className="form-control">
