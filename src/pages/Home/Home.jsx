@@ -1,9 +1,10 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "./Banner/Banner";
 import EmergencyContact from "./Rightside/EmergencyContact";
-import SociaConnection from "./Rightside/SociaConnection";
+import SociaConnection from "./Rightside/SociaConnection"
 import ServiceCard from "./SerceCard/ServiceCard"
 import { Helmet } from "react-helmet-async";
+import Technology from "./Rightside/Tchnology/Technology";
 
 
 
@@ -37,6 +38,9 @@ const Home = () => {
                 <br />
                 <hr />
                 <EmergencyContact></EmergencyContact>
+                <br />
+                <hr />
+                <Technology></Technology>
             </div>
             
             </div>

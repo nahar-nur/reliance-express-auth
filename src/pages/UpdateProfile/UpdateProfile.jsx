@@ -1,8 +1,10 @@
+import { Helmet } from "react-helmet-async";
 
 
 const UpdateProfile = () => {
     return (
         <div>
+            <Helmet><title>Reliance Express | Update Profile</title></Helmet>
             <div className=" mt-12 mb-12 mx-auto">
                 <h2 className="text-3xl">All Users</h2>
                
