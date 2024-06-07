@@ -17,7 +17,7 @@ const Navbar = () => {
 } to='/'>Home</NavLink></a></li>
         <li><a><NavLink className={({ isActive }) =>
   isActive ? 'text-primary font-bold' : 'font-bold'
-} to='/updateProfile'>Update Profile</NavLink></a></li>
+} to='/update'>Update Profile</NavLink></a></li>
         <li><a><NavLink className={({ isActive }) =>
   isActive ? 'text-primary font-bold' : 'font-bold'
 } to='/about'>About Us</NavLink></a></li>
